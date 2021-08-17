@@ -27,3 +27,17 @@ function showQuiz({discover_questions}) {
   return <Quiz id={discover_questions} />;
 }
 ```
+
+## Versión con textos en español
+
+Instalar utilizando el tag `0.2`.
+
+```
+npm install --save "git@github.com:bnom-io/potencia-quiz-plugin.git#0.2"
+```
+
+Para mostrar los textos y el modal en español agregar el parámetro `lang="es"`. Ejemplo:
+
+```JSX
+<Quiz id="/S2/SBS2M1L1a.json" lang="es" />
+```
