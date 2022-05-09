@@ -41,3 +41,18 @@ Para mostrar los textos y el modal en español agregar el parámetro `lang="es"`
 ```JSX
 <Quiz id="/S2/SBS2M1L1a.json" lang="es" />
 ```
+
+
+## Versión con botón opcional
+
+Instalar utilizando el tag `0.3.0`.
+
+```
+npm install --save "git@github.com:bnom-io/potencia-quiz-plugin.git#0.3.0"
+```
+
+Por default el botón para mostrar el modal se renderiza como componente. Para renderizar el quiz sin mostrar el botón es necesario agregar el parámetro `button={false}`. Ejemplo:
+
+```JSX
+<Quiz id="/S2/SBS2M1L1a.json" lang="es" button={false} />
+```
